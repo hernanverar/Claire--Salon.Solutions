@@ -1,0 +1,21 @@
+@model ClarieSalonPage.Models.Client
+
+<h4>Add a new client</h4>
+<hr />
+<p><strong>NOTE:</strong> You need to have at least one Stylist before you can add an client!</p>
+<p>Go to @Html.ActionLink("this page", "Create", "Stylists") to create a Stylist.</p>
+<hr />
+<div id="nav">
+@using (Html.BeginForm())
+{
+  @Html.LabelFor(model => model.ClientName, "Client Name: ")
+  @Html.TextBoxFor(model => model.ClientName)
+
+  @Html.LabelFor(model => model.Stylist, "Stylist: ")
+  @Html.DropDownList("StylistId")
+
+  <input type="submit" value="Add new client" class="btn btn-primary" />
+}
+<hr />
+<a>@Html.ActionLink("Show all clients", "Index")</a>
+</div>

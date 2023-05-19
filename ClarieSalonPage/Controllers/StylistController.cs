@@ -9,6 +9,17 @@ namespace ClarieSalonPage.Controllers
 {
   public class StylistController : Controller
   {
+   private readonly ClarieSalonPageContext _db;
 
+    public StylistsController(ClarieSalonPageContext db)
+    {
+      _db = db;
+    }
+
+    public ActionResult Index()
+    {
+      List<Stylist> model = _db.Stylists.ToList();
+      return View(model);
+    }  
   }
 }  

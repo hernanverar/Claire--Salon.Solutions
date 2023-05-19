@@ -17,7 +17,9 @@ namespace ClarieSalonPage.Controllers
         }
         public ActionResult Index()
         {
-            List<Clients> model = _db.ClarieSalon.ToList();
+            List<Client> model = _db.Clients
+                                .Include(Client => Client.Stylist)
+                                .ToList();
             return View(model);
         }
   }
