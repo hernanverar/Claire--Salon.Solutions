@@ -2,18 +2,18 @@
 Follow along below, replace with your own work as needed:
 
 # TITLE
-#### Brief Description/Overview  
+#### Eau Claire's Salon
 
-#### By (your name here)  
+#### By Hernan Verar  
 
 ## Technologies Used:
 * C#
 * .NET 6.0
-* MSTest (if needed)
+* MSTest 
 * MySql
 
 ## Description:
-Long Description / Mission Statement / What the app do.  
+This is a Webpage to help the owner to manage employees and their clients. the owner should be able to add a list of emplyeers and clients this webpage will help the owner to add specific stylist to specific clients needs, this way each client can book their favorite stylist.
 
 ## Setup/Installation Req's:
 
@@ -43,10 +43,10 @@ Follow the instructions in the LearnHowToProgram.com lesson ["Creating a Test Da
 (Additional Instructions about how the app do.)
 
 ## Known Bugs:
-Any known bugs here
+
 
 ## License:
-Git your license, yo!
+
 
 ## One More Thing:
 Don't forget to get a picture of your database relations layout with [SQL Designer](https://ondras.zarovi.cz/sql/demo/). Review as needed with [this epicodus lesson](https://www.learnhowtoprogram.com/c-and-net/database-basics/using-sql-designer)
