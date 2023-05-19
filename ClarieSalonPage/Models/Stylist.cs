@@ -6,6 +6,6 @@ namespace ClarieSalonPage.Models
   {
 public int StylistId { get; set; }
     public string Type { get; set; }
-    public List<ClarieSalon> ClarieSalonPage{ get; set; }
+    // public List<ClarieSalon> ClarieSalonPage{ get; set; }
   }
 }
