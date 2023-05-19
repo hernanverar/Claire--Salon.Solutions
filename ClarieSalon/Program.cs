@@ -14,7 +14,7 @@ namespace ClarieSalon
 
       builder.Services.AddControllersWithViews();
 
-      builder.Services.AddDbContext < ClarieSalon Context > (
+      builder.Services.AddDbContext < ClarieSalonContext > (
                         dbContextOptions => dbContextOptions
                           .UseMySql(
                             builder.Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:DefaultConnection"]
