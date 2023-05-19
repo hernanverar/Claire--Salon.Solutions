@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace ClarieSalon.Controllers
 {
     public class ClientsController : Controller
-    {
-      
-    }
+  {
+
+  }
 }
